@@ -5,7 +5,7 @@ class mammals:
         self.name=name
         self.NumberOfLegs=NumberOfLegs
     def move(self):
-        print("This animal uses {self.NumberOfLegs} to move")
+        print(f"This {self.name} uses {self.NumberOfLegs} to move")
     def eat(self):
         print("this animal eats")
 
